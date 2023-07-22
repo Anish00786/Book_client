@@ -54,7 +54,7 @@ const onSubmit=(e)=>{
   return (
     <div>
       <h1 className='text-center '>Edit Book</h1>
-      <form onSubmit={onSubmit} className="flex flex-col w-[600px] gap-7 p-2">
+      <form onSubmit={onSubmit} className="flex flex-col lg:w-[600px] gap-7 p-2">
         <div className="flex gap-3 w-full justify-between">
           <input
             name="title"
